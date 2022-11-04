@@ -14,6 +14,11 @@
           >
         </a>
         <div class="flex md:order-2">
+          <span
+            class="self-center mr-4 text-xl font-semibold whitespace-nowrap"
+          >
+            🛒</span
+          >
           <button
             type="button"
             class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
