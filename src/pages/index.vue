@@ -116,7 +116,7 @@
       </div>
     </section>
     <section class="product">
-      <div class="container mx-auto mb-8">
+      <div class="mx-4 mb-8 lg:container lg:mx-auto">
         <h2 class="text-3xl font-bold">Just Coming This Month</h2>
 
         <ul
@@ -152,8 +152,10 @@
           </li>
         </ul>
       </div>
-      <div class="container grid grid-cols-4 gap-4 mx-auto">
-        <div v-for="item in 4" :key="item" class="w-full max-w-sm">
+      <div
+        class="grid grid-cols-1 gap-4 mx-4 lg:container lg:mx-auto lg:grid-cols-4"
+      >
+        <div v-for="item in 4" :key="item" class="w-full">
           <div class="bg-gray-300 rounded-t h-72"></div>
           <div class="pb-5">
             <div class="flex flex-row">
@@ -192,7 +194,9 @@
       <div class="container mx-auto mt-10 mb-8">
         <h2 class="text-3xl font-bold text-center">Explore Our Creative</h2>
       </div>
-      <div class="container grid grid-cols-4 gap-4 mx-auto">
+      <div
+        class="grid grid-cols-1 gap-4 mx-4 lg:container lg:mx-auto lg:grid-cols-4"
+      >
         <div class="col-span-2 p-8 text-lg bg-gray-400 h-96">Category</div>
         <div class="col-span-1 p-8 text-lg bg-gray-400 h-96">Category</div>
         <div class="grid grid-cols-1 col-span-1 gap-4">
