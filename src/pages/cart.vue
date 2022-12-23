@@ -6,7 +6,6 @@ import CartPage from "@/components/CartPage.vue";
 <template>
   <main>
     <NavigationBar />
-    <!-- Cart page -->
     <CartPage />
   </main>
 </template>
